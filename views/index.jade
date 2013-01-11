@@ -1,0 +1,7 @@
+extends layout
+
+block content
+	form(id="domain", method="post", action="/find")
+		label domain
+		input(type="text", name="domain", placeholder="domain")
+		input(type="submit", value="시간을 알려줘!")
